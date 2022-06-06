@@ -1,7 +1,6 @@
 const { awscdk } = require('projen');
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'kyuseo',
-  author
   authorAddress: 'kyuseo@amazon.com',
   cdkVersion: '2.21.0',
   defaultReleaseBranch: 'main',
